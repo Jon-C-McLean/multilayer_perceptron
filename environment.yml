@@ -1,0 +1,15 @@
+name: uni-ada
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - tensorflow
+  - pip
+  - matplotlib
+  - pip:
+    - jupyter
+    - ipykernel
+    - tensorflow_datasets
+    - scikit-learn
+    - tqdm
